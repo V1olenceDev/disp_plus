@@ -8,6 +8,7 @@ EVS = 'ЭВС'
 SS = 'Связь'
 KZ = 'КЗ'
 ZK = 'ЗК'
+YTT = 'УТТиСТ'
 
 DEPARTMENT_CHOICES = (
     (GKS, 'ГКС'),
@@ -18,7 +19,8 @@ DEPARTMENT_CHOICES = (
     (EVS, 'ЭВС'),
     (SS, 'Связь'),
     (KZ, 'КЗ'),
-    (ZK, 'ЗК')
+    (ZK, 'ЗК'),
+    (YTT, 'УТТиСТ')
 )
 CUSTOMER = 'Заказчик'
 DISPATCHER = 'Диспетчер'

@@ -12,6 +12,9 @@ from .constants import (
 )
 
 
+"""Модель пользовательского аккаунта, расширяющая стандартный User."""
+
+
 class CustomUser(AbstractUser):
     """
     Модель пользователя.
@@ -76,6 +79,9 @@ class Transport(models.Model):
     class Meta:
         verbose_name = 'Транспорт'
         verbose_name_plural = 'Транспортные средства'
+
+
+"""Модель заказа."""
 
 
 class Order(models.Model):
