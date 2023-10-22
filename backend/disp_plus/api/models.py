@@ -12,9 +12,6 @@ from .constants import (
 )
 
 
-"""Модель пользовательского аккаунта, расширяющая стандартный User."""
-
-
 class CustomUser(AbstractUser):
     """
     Модель пользователя.
